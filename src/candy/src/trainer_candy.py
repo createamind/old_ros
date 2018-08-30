@@ -252,6 +252,7 @@ class Machine(object):
 
 		values = np.squeeze(values, 1)
 		neglogpacs = np.squeeze(neglogpacs, 1)
+		actions = np.squeeze(actions, 1)
 		# rewards = np.squeeze(rewards, 1)
 
 		raw_image = np.array([ob[0] for ob in obs])
